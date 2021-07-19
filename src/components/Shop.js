@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Shop = () => {
+const Shop = (props) => {
   return (
     <div>
-      Shop
+      <div id="grid">{props.shopItems}</div>
     </div>
-  )
-}
+  );
+};
 
 export default Shop;
