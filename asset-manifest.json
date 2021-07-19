@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.44a98f86.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.7addd55d.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.7addd55d.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.e2f9aa8b.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.e2f9aa8b.js.map",
+    "static/js/2.e3fb36be.chunk.js": "/shopping-cart/static/js/2.e3fb36be.chunk.js",
+    "static/js/2.e3fb36be.chunk.js.map": "/shopping-cart/static/js/2.e3fb36be.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.44a98f86.chunk.css.map": "/shopping-cart/static/css/main.44a98f86.chunk.css.map",
+    "static/js/2.e3fb36be.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.e3fb36be.chunk.js.LICENSE.txt",
+    "static/media/Alien Collection Graphic.jpeg": "/shopping-cart/static/media/Alien Collection Graphic.e2997ec3.jpeg",
+    "static/media/Alien Forms Bubble Graphic.jpeg": "/shopping-cart/static/media/Alien Forms Bubble Graphic.4812bf2e.jpeg",
+    "static/media/Alien Line-up Logo.jpeg": "/shopping-cart/static/media/Alien Line-up Logo.258561e9.jpeg",
+    "static/media/Alien Logo.jpeg": "/shopping-cart/static/media/Alien Logo.f9544efd.jpeg",
+    "static/media/Alien rush graphic.jpeg": "/shopping-cart/static/media/Alien rush graphic.9c343d6f.jpeg",
+    "static/media/Armored Up - Omni-kix Cannonbolt.jpeg": "/shopping-cart/static/media/Armored Up - Omni-kix Cannonbolt.cc3891ad.jpeg",
+    "static/media/Armored Up - Omni-kix Slapback.jpeg": "/shopping-cart/static/media/Armored Up - Omni-kix Slapback.33410a89.jpeg",
+    "static/media/Ben Tennyson Omnitrix Graphic.jpeg": "/shopping-cart/static/media/Ben Tennyson Omnitrix Graphic.062d0371.jpeg",
+    "static/media/Diamondhead DNA Transformation.jpeg": "/shopping-cart/static/media/Diamondhead DNA Transformation.ed93ad67.jpeg",
+    "static/media/Four Arms DNA Transformation.jpeg": "/shopping-cart/static/media/Four Arms DNA Transformation.52661faa.jpeg",
+    "static/media/Going Hero - Omni-kix XLR8.jpeg": "/shopping-cart/static/media/Going Hero - Omni-kix XLR8.fcc45539.jpeg",
+    "static/media/Heat Blast DNA Transformation.jpeg": "/shopping-cart/static/media/Heat Blast DNA Transformation.cb58800c.jpeg",
+    "static/media/Overflow DNA Transformation.jpeg": "/shopping-cart/static/media/Overflow DNA Transformation.ea85c5f3.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2f9aa8b.js",
+    "static/js/2.e3fb36be.chunk.js",
+    "static/css/main.44a98f86.chunk.css",
+    "static/js/main.7addd55d.chunk.js"
+  ]
+}
