@@ -20,9 +20,9 @@ const App = () => {
     setCartItems((prevState) => prevState.filter((_, i) => i !== index));
     setIndexArray((prevState) => ({
       ...prevState,
-      [index]: 2,
+      [index]: 1,
     }));
-  }
+  };
 
   const addToCart = (index) => {
     if (index in indexArray) {
@@ -31,10 +31,8 @@ const App = () => {
         [index]: prevState[index] + 1,
       }));
 
-      cartItems.splice(index, 1);
-
-      setCartItems(() => [
-        ...cartItems,
+      setCartItems((prevState) => [
+        ...prevState.filter((_, i) => i !== index),
         <CartItem
           img={images[Object.keys(images)[index]].default}
           index={index}
@@ -47,7 +45,7 @@ const App = () => {
     } else {
       setIndexArray((prevState) => ({
         ...prevState,
-        [index]: 2,
+        [index]: 1,
       }));
 
       setCartItems(() => [
@@ -81,24 +79,24 @@ const App = () => {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/shopping-cart">Home</Link>
               </li>
               <li>
-                <Link to="/shop">Shop</Link>
+                <Link to="/shopping-cart/shop">Shop</Link>
               </li>
               <li>
-                <Link to="/cart">Cart</Link>
+                <Link to="/shopping-cart/cart">Cart</Link>
               </li>
             </ul>
           </nav>
           <Switch>
-            <Route path="/shop">
+            <Route path="/shopping-cart/shop">
               <Shop shopItems={shopItems} />
             </Route>
-            <Route path="/cart">
+            <Route path="/shopping-cart/cart">
               <Cart cartItems={cartItems} />
             </Route>
-            <Route exact path="/">
+            <Route exact path="/shopping-cart">
               <Home />
             </Route>
           </Switch>
